@@ -1,5 +1,6 @@
 body {
   font-family: "DM Sans", serif;
+  margin-top: 10px;
 }
 
 .main {
@@ -10,7 +11,7 @@ body {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 10px rgb(231, 147, 203);
-  width: 800px;
+  max-width: 1100px;
   margin: auto;
 }
 
