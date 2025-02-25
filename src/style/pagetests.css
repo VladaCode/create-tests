@@ -1,0 +1,116 @@
+body {
+  font-family: "DM Sans", serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgb(231, 147, 203);
+  width: 800px;
+  margin: auto;
+}
+
+.section_title {
+  color: rgb(231, 147, 203);
+}
+
+.data_field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(231, 147, 203);
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: none;
+
+  &::placeholder {
+    font-family: "DM Sans", serif;
+  }
+
+  &:focus {
+    border-color: rgb(231, 147, 203);
+    outline: none;
+    box-shadow: 0 0 5px rgba(226, 114, 189, 1);
+  }
+}
+
+.questions {
+  border: 1px solid rgb(231, 147, 203);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.data_field_question {
+  all: unset;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+  margin-bottom: 10px;
+  width: 100%;
+  &:focus {
+    border-color: rgb(231, 147, 203);
+  }
+}
+
+.option {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-test {
+  border-top: 1px solid rgb(231, 147, 203); /* Горизонтальная черта */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: rgb(231, 147, 203);
+}
+
+.add-option {
+  color: rgb(231, 147, 203);
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.delete-question {
+  cursor: pointer;
+}
+
+.add-question {
+  color: rgb(231, 147, 203);
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid rgb(231, 147, 203);
+  padding: 5px 0px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(211, 57, 159);
+    color: #fff;
+  }
+}
+
+.create_button {
+  background-color: rgba(226, 114, 189, 1);
+  max-width: 200px;
+  margin-left: auto;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(211, 57, 159);
+  }
+}
