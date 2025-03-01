@@ -3,6 +3,7 @@ body {
 }
 
 .main {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +40,7 @@ body {
   }
 }
 
-.questions {
+.question {
   border: 1px solid rgb(231, 147, 203);
   padding: 15px;
   margin: 10px 0;
